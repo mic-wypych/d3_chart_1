@@ -29,6 +29,8 @@ function App() {
   
   return(
     <>
+    <h1>D3 loves React first cohort</h1>
+    <h3>Each square represents one student. You can hover on the squares to see exact numbers<br></br>of students per country. The plot displays only countries with at least 3 students enrolled in the course.</h3>
     <Barplot data = {data}/>
     </>
   )

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Space Grotesk', system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.waffle-square {
+    transform: rotate(45deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.waffle-square.hovered {
+    fill: #ff6b6b;
+    filter: drop-shadow(0 0 8px rgba(220, 38, 38, 0.6));
+}
